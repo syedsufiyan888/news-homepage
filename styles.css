@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  header {
+    padding: 20px;
+    padding-top: 50px;
+   
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav img {
+    width: 100px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  nav .divlines div{
+    width: 45px;
+    height: 4px;
+    background-color: #000000;
+    margin: 6px 0;
+    vertical-align: middle;
+    /* display: block;
+    flex-direction: column; */
+    /* justify-content: column; */
+    /* align-items: colu/; */
+    margin-left: auto;
+    align-items: flex-end;  
+    /* margin-bottom: auto; */
+  }
+
+  @media (min-width: 412px) {
+    
+    /* nav ul {
+      display: none;
+    } */
+
+    body{
+      margin: 25px;
+      margin-top: auto;
+    }
+
+    /* nav{
+      overflow: hidden;
+    } */
+
+    nav ul{
+      display: none;
+        position: sticky;
+        top: 260px;
+        left: 0;
+        text-align: right;
+        /* height: 100%; */
+        width: 100vh;
+        overflow: hidden;
+      
+    }
+    nav ul li{
+        display: block;
+        font-size: 40px;
+    }
+    nav ul li a:hover{
+      color: red;
+      
+    }
+
+  
+    nav img {
+      width: 70px; 
+    }
+  
+    main {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 3rem;
+      line-height: 1.3;
+      font-weight: bolder;
+    }
+  
+    p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+  
+    .new, .endarticles {
+      margin-top: 20px;
+    }
+  
+    .new h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .endarticles {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .firstart, .secondart, .thirdart {
+      padding: 10px;
+      border: 1px solid #e0e0e0;
+      background-color: #fafafa;
+    }
+  
+    
+    img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    
+    section {
+      margin-bottom: 20px;
+    }
+  }
+  
