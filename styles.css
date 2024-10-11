@@ -8,8 +8,8 @@ body {
   
   
 
-  @media (min-width: 200px) {
-    
+  /* @media (min-width: 200px) {
+
     header {
       padding: 20px;
       padding-top: 50px;
@@ -26,46 +26,26 @@ body {
       width: 100px;
     }
     
-    /* nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
     
-    nav ul li {
-      display: inline;
-      margin: 0 10px;
-      font-size: 14px;
-    } */
     nav .divlines div{
       width: 45px;
       height: 4px;
       background-color: #000000;
       margin: 6px 0;
       vertical-align: middle;
-      /* display: block;
-      flex-direction: column; */
-      /* justify-content: column; */
-      /* align-items: colu/; */
       margin-left: auto;
       align-items: flex-end;  
-      /* margin-bottom: auto; */
+      
     }
 
 
 
-    /* nav ul {
-      display: none;
-    } */
 
     body{
       margin: 25px;
       margin-top: auto;
     }
 
-    /* nav{
-      overflow: hidden;
-    } */
 
     nav ul{
       display: none;
@@ -73,9 +53,6 @@ body {
         top: 260px;
         left: 0;
         text-align: right;
-        /* height: 100%; */
-        /* width: 100vh; */
-        /* overflow: hidden; */
       
     }
     nav ul li{
@@ -163,7 +140,7 @@ body {
     .newhead1, .newhead2, .newhead3{
       margin-bottom: 15px;
       color: white;
-      /* padding-bottom: 5px; */
+      
       font-size: 1rem;
       font-weight: bold;
       
@@ -210,5 +187,55 @@ body {
       margin-left: 70px;
     }
   
+  } */
+
+
+  @media (min-width: 1000px) {
+
+    header {
+      padding: 20px;
+      padding-top: 50px;
+     
+    }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    nav img {
+      width: 30px;
+    }
+    body{
+      margin: 25px;
+      margin-top: auto;
+    }
+    .main-img{
+        content: url(assets/images/image-web-3-desktop.jpg);
+        width: 40%;
+    }
+    nav ul{
+      display: flex;
+      word-spacing: 10px;
+      /* justify-content: flex-end; */
+      /* flex-direction: column; */
+        position: sticky;
+        top: 260px;
+        left: 0;
+        /* text-align: right; */
+      
+    }
+    nav ul li{
+        display: block;
+        /* font-size: 40px; */
+    }
+    nav ul li a:hover{
+      color: red;
+      
+    }
+
+
+
+
   }
-  
