@@ -7,7 +7,7 @@ body {
   
   
 
-  @media (max-width: 3088px) {
+  @media (min-width: 412px) {
     
 
     header {
@@ -26,7 +26,7 @@ body {
       width: 100px;
     }
     
-    nav ul {
+    /* nav ul {
       list-style: none;
       padding: 0;
       margin: 0;
@@ -36,7 +36,7 @@ body {
       display: inline;
       margin: 0 10px;
       font-size: 14px;
-    }
+    } */
     nav .divlines div{
       width: 45px;
       height: 4px;
@@ -74,8 +74,8 @@ body {
         left: 0;
         text-align: right;
         /* height: 100%; */
-        width: 100vh;
-        overflow: hidden;
+        /* width: 100vh; */
+        /* overflow: hidden; */
       
     }
     nav ul li{
@@ -106,15 +106,22 @@ body {
       font-size: 14px;
       line-height: 1.6;
     }
+
+    .we-dive{
+      color: grey;
+      font-size: 1.1rem;
+    }
   
     button {
-      width: 100%;
-      padding: 10px;
-      background-color: #000;
-      color: #fff;
+      width: 45%;
+      padding: 15px;
+      background-color: #ff3838e4;
+      color: #000000;
       border: none;
       margin-top: 15px;
-      cursor: pointer;
+      font-weight: 800;
+      letter-spacing: 3px;
+      box-shadow: 2px solid black;
     }
   
     .new, .endarticles {
@@ -144,15 +151,15 @@ body {
       height: auto;
     }
   
-    .attribution {
+    /* .attribution {
       font-size: 11px;
       text-align: center;
       margin-top: 20px;
-    }
+    } */
   
     
-    section {
+    /* section {
       margin-bottom: 20px;
-    }
+    } */
   }
   
