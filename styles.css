@@ -192,47 +192,100 @@ body {
 
   @media (min-width: 1000px) {
 
-    header {
-      padding: 20px;
-      padding-top: 50px;
-     
+    body{
+      margin: 6rem;
+      margin-top: auto;
     }
-    
+    header {
+      padding-top: 50px;
+    }
     nav {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       align-items: center;
+      padding-bottom: 1rem;
     }
     
     nav img {
-      width: 30px;
-    }
-    body{
-      margin: 25px;
-      margin-top: auto;
-    }
-    .main-img{
-        content: url(assets/images/image-web-3-desktop.jpg);
-        width: 40%;
+      width: 3rem;
+      justify-content: left;
     }
     nav ul{
+      margin-left: auto;
       display: flex;
-      word-spacing: 10px;
-      /* justify-content: flex-end; */
-      /* flex-direction: column; */
-        position: sticky;
-        top: 260px;
-        left: 0;
-        /* text-align: right; */
-      
     }
     nav ul li{
         display: block;
-        /* font-size: 40px; */
+        margin-left: 1.5rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: grey;
+      
     }
     nav ul li a:hover{
       color: red;
+    }
+    /* main{
+      width: 65%;
+    } */
+
+    .main-img{
+      content: url(assets/images/image-web-3-desktop.jpg);
+      width: 65%;
+      float: left;
+    }
+    .bright-wedive{
+      display: flex;
+      float: left;
+      margin-right: 35%;
+      /* flex-wrap: wrap; */
+    }
+    .thebright{
+
+
+      /* float: left; */
+      /* width: 50%; */
+      padding-right: auto;
       
+    }
+    .button{
+      width: 20%;
+    }
+    .thebright{
+      font-size: 2rem;
+      /* width: 7rem; */
+      /* margin-right: 2rem; */
+      /* width: 30%; */
+      
+
+      /* position: static;
+      top: 5rem; */
+      /* flex-wrap: nowrap; */
+      /* white-space: preline; */
+    }
+    .wedive{
+      padding-left: 5rem;
+    }
+
+    .new{
+      background-color: rgb(1, 1, 51);
+      color: white;
+      padding-left: 1rem;
+      padding-top: 0.2rem;
+      padding-right: 0.7rem;
+      padding-bottom: 0.4rem;
+      margin-left: 70%;
+      /* width: 20%; */
+      /* float: right; */
+
+    }
+    .new-word{
+      font-size: 1.7rem;
+      font-weight: 500;
+      color: rgb(255, 179, 0);
     }
 
 
