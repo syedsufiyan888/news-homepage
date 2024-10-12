@@ -8,7 +8,7 @@ body {
   
   
 
-  /* @media (min-width: 200px) {
+  @media (min-width: 200px) {
 
     header {
       padding: 20px;
@@ -187,7 +187,7 @@ body {
       margin-left: 70px;
     }
   
-  } */
+  }
 
 
   @media (min-width: 1000px) {
@@ -198,6 +198,9 @@ body {
     }
     header {
       padding-top: 50px;
+    }
+    .divlines{
+      display: none;
     }
     nav {
       display: flex;
@@ -240,39 +243,36 @@ body {
     .bright-wedive{
       display: flex;
       float: left;
-      margin-right: 35%;
+      width: 65%;
+      font-size: 5px;
+      /* margin-right: 35%; */
       /* flex-wrap: wrap; */
     }
     .thebright{
 
-
+      /* width: 50%; */
       /* float: left; */
       /* width: 50%; */
+      font-size: 2.4rem;
       padding-right: auto;
       
     }
     .button{
       width: 20%;
     }
-    .thebright{
-      font-size: 2rem;
-      /* width: 7rem; */
-      /* margin-right: 2rem; */
-      /* width: 30%; */
-      
-
-      /* position: static;
-      top: 5rem; */
-      /* flex-wrap: nowrap; */
-      /* white-space: preline; */
-    }
-    .wedive{
-      padding-left: 5rem;
+   .wedive{
+    
+      color: grey;
+      font-size: 1.1rem;
+    
+      font-size: 1rem;
+      padding-left: 15px;
     }
 
     .new{
       background-color: rgb(1, 1, 51);
       color: white;
+      margin-top: 0;
       padding-left: 1rem;
       padding-top: 0.2rem;
       padding-right: 0.7rem;
@@ -287,6 +287,56 @@ body {
       font-weight: 500;
       color: rgb(255, 179, 0);
     }
+    /* .border2{
+      padding-top: 0;
+    } */
+
+    .endarticles{
+      display: flex;
+    }
+    .endarticles img{
+      width: 8%;
+    }
+    .endarticles {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+    .endarticles img{
+      width: 40%;
+      float: left;
+      position: relative;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .firstart, .secondart, .thirdart {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    
+    .endnums{
+      font-size: 30px;
+      font-weight: 800;
+      color: tomato;
+    }
+  
+    .endhead{
+      font-weight: 400  ;
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+    .wtimg{
+      padding-left: 70px;
+      margin-left: 70px;
+    }
+
 
 
 
